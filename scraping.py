@@ -96,8 +96,8 @@ def mars_facts():
         return None
 
     # Assign columns and set the index for the dataframe
-    df.columns=['description','value']
-    df.set_index('description',inplace = True)
+    df.columns=['Description','Value']
+    df.set_index('Description',inplace = True)
     
     # Convert the dataframe into HTML format and add bootstrap
     return df.to_html()
