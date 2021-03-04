@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 .DS_Store
+Practice.ipynb
 
 # C extensions
 *.so
